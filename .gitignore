@@ -1,3 +1,5 @@
+yarn.lock
+package-lock.json
 /node_modules
 /session
 
@@ -5,6 +7,3 @@
 
 /src/teste.js
 /tokens
-
-package-lock.json
-yarn.lock

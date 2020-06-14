@@ -1,4 +1,4 @@
-const onMessage = require("./app/messages");
+const onMessage = require("./controllers/messagesController");
 
 module.exports = function startWhatsapp(client) {
   client.onMessage(async (message) => {
