@@ -20,6 +20,8 @@ async function onMessage(client, message) {
   }
 
   const numero = String(message.from).split("@")[0].trim();
+  console.log(numero);
+
   const email = `${numero}@gmail.com`;
   const name = message.sender.name
     ? message.sender.pushname
@@ -38,6 +40,7 @@ async function onMessage(client, message) {
     try {
       // verifi is number euthenticated
       const resDataApi = await api.post("/existuser", { email });
+      console.log(resDataApi.data);
 
       if (resDataApi.status !== 200) {
         return;

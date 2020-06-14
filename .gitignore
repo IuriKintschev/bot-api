@@ -5,3 +5,6 @@
 
 /src/teste.js
 /tokens
+
+package-lock.json
+yarn.lock
