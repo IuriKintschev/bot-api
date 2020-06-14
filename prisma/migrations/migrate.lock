@@ -1,0 +1,6 @@
+# Prisma Migrate lockfile v1
+
+20200613194340-user_create
+20200613194358-conversa_table
+20200613195507-mesagem_table_with_conect_to_conversa
+20200613205932-update_forinkeys
