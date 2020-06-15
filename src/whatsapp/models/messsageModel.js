@@ -8,13 +8,13 @@ const messageModel = (body, name) => {
   const initTalk = `
 Olá ${name}, bem vindo ao DOUTOR ESTRADA! 🚚
 
-EU COMPREENDO QUE AS 
-INFORMAÇÕES OFERECIDAS SÃO 
-INFORMATIVAS DE ACORDO COM
-O MINISTÉRIO DA SAÚDE E NÃO
-SUBSTITUEM O ATENDIMENTO 
-PRESENCIAL DO PROFISSIONAL 
-DE SAÚDE. 🩺
+Eu compreendo que as 
+informações oferecidas são 
+informativas de acordo com
+o ministério da saúde e não
+substituem o atendimento 
+presencial do profissional 
+de saúde. 🩺
 
      - Sim
      - Não
@@ -87,19 +87,19 @@ DE SAÚDE. 🩺
     res = `
     🤔 Isso parese ser muito serio, eu consegui a seguinte informação!
 
-    • LIQUIDO AMARELO, OU CORRIMENTO NO CANAL 
-    DA URINA, COM OU SEM ARDÊNCIA PARA URINAR,
-    PODE SER O INÍCIO DE INFECÇÃO BACTERIANA 
-    NA BEXIGA, PRÓSTATA, OU DOENÇA TRANSMITIDA 
-    PELO SEXO (SE VOCÊ TEVE RELAÇÃO SEXUAL SEM
-    CAMISINHA NOS ÚLTIMOS TEMPOS).
+    • Liquido amarelo, ou corrimento no canal 
+    da urina, com ou sem ardência para urinar,
+    pode ser o início de infecção bacteriana 
+    na bexiga, próstata, ou doença transmitida 
+    pelo sexo (se você teve relação sexual sem
+    camisinha nos últimos tempos).
 
-    VOCÊ PODE COMPARECER À UMA CTA (CENTRO DE
-    TRIAGEM DIAGNÓSTICA )UNIDADE BÁSICA DE
-    SAÚDE PARA REALIZAÇÃO DE EXAMES DE
-    SANGUE E/OU URINA, TESTES RÁPIDOS, 
-    E RECEBER A RECEITA DE ANTIBIOTICOS EM
-    POUCO TEMPO. É RAPIDO E NECESSÁRIO!
+    você pode comparecer à uma cta (centro de
+    triagem diagnóstica )unidade básica de
+    saúde para realização de exames de
+    sangue e/ou urina, testes rápidos, 
+    e receber a receita de antibioticos em
+    pouco tempo. é rapido e necessário!
       `;
   } else {
     res =
