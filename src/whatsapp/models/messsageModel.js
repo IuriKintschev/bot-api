@@ -60,15 +60,7 @@ de saúde. 🩺
     res = `
         😃 Qual a sua idade?
 
-        • 25-30 ANOS
-        • 31-35 ANOS
-        • 36-40 ANOS
-        • 41-45 ANOS
-        • 46-50 ANOS
-        • 52-55 ANOS
-        • 56-60 ANOS
-        • 61-65 ANOS
-        • > 65 ANOS
+        Qual a sua idade ?
     `;
   } else if (body >= 5) {
     res = `
