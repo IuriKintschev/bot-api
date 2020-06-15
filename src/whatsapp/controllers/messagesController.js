@@ -72,6 +72,23 @@ async function onMessage(client, message) {
 
   client.sendText(message.from, res);
 
+  if (
+    body.includes("urina") ||
+    body.includes("corrimento") ||
+    body.includes("secreção") ||
+    body.includes("amarelo") ||
+    body.includes("mijar") ||
+    body.includes("urinando")
+  ) {
+    client.sendLocation(
+      message.from,
+      -11.859544,
+      -55.51238,
+      "Sinop, MT",
+      "Centro de triagem"
+    );
+  }
+
   await prisma.conversa.create({
     data: {
       user: {
