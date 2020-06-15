@@ -100,6 +100,11 @@ de saúde. 🩺
     sangue e/ou urina, testes rápidos, 
     e receber a receita de antibioticos em
     pouco tempo. é rapido e necessário!
+
+    🤗 Consegui encontrar uma unidade
+    de atendimento proxima a você!
+
+    Av. André Antônio Maggi - JARDIM DAS ACÁCIAS, Sinop - MT, 78553-252
       `;
   } else {
     res =
